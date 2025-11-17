@@ -30,4 +30,4 @@ Kotzochampou, S., & Chondrogianni, V. (2022). How similar are shared syntactic r
 - **Purpose**: Provide comparison on different mertics:
 Michaelov, J., Arnett, C., Chang, T., & Bergen, B. (2023, December). Structural priming demonstrates abstract grammatical representations in multilingual language models. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (pp. 3703-3720).
 Sinclair, A., Jumelet, J., Zuidema, W., & Fernández, R. (2022). Structural persistence in language models: Priming as a window into abstract language representations. Transactions of the Association for Computational Linguistics, 10, 1031-1050.
-- ![Comparison across different models with Prime infol](./metrics/differentMetrics/matrics_compare.png)
+- ![Comparison across different models with Prime infol](./metrics/differentMetrics/metrics_compare.png)
