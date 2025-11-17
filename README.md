@@ -11,7 +11,8 @@ The `metrics/` directory contains core scripts for calculating and analyzing Syn
 
 ####  `single_model_SPI.py`
 - **Function**: Calculate SPI values for a single model
-- **Output**: Generate a CSV file containing SPI scores for each sentence
+- **Input**: You need to have two generated files, one with prime info and on without prime info as comparison. And you need to have 1 standard data file with positive and negative sentences
+- **Output**: Generate CSV filex containing SPI scores for each sentence (with prime info and without prime info)
 - **Note**: The output from this script serves as input data for model comparison analysis
 - ![Result comparison of with Prime info/without Prime info on the same model](./metrics/blip_avg.png)
 
