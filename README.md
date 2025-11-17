@@ -13,7 +13,7 @@ The `metrics/` directory contains core scripts for calculating and analyzing Syn
 - **Function**: Calculate SPI values for a single model
 - **Output**: Generate a CSV file containing SPI scores for each sentence
 - **Note**: The output from this script serves as input data for model comparison analysis
-- ![Single model output](.metrics/blip_priming_results.png)
+- ![Single model output](./metrics/blip_priming_results.png)
 
 #### `model_comparison.py`
 - **Function**: Compare syntactic priming effects across different models
