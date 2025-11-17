@@ -1,0 +1,97 @@
+Set	PrimeType	PrimeLanguage	PrimeSentence	TargetSentence	TargetType	TargetLanguage	ExtraCondition	FullSentence
+Set1	Active_Prime	English_Prime	The knight kisses the princess.	The trainer is pushing the swimmer	Active_Target	English_Target	NA	The knight kisses the princess. The trainer is pushing the swimmer
+Set1	Active_Prime	English_Prime	The knight kisses the princess.	The swimmer is pushed by the trainer	Passive_Target	English_Target	NA	The knight kisses the princess. The swimmer is pushed by the trainer
+Set1	Passive_Prime	English_Prime	The princess is kissed by the knight.	The trainer is pushing the swimmer	Active_Target	English_Target	NA	The princess is kissed by the knight. The trainer is pushing the swimmer
+Set1	Passive_Prime	English_Prime	The princess is kissed by the knight.	The swimmer is pushed by the trainer	Passive_Target	English_Target	NA	The princess is kissed by the knight. The swimmer is pushed by the trainer
+Set2	Active_Prime	English_Prime	The raccoon hugs the panda.	The bull hits the dog.	Active_Target	English_Target	NA	The raccoon hugs the panda. The bull hits the dog.
+Set2	Active_Prime	English_Prime	The raccoon hugs the panda.	The dog is hit by the bull.	Passive_Target	English_Target	NA	The raccoon hugs the panda. The dog is hit by the bull.
+Set2	Passive_Prime	English_Prime	The panda is hugged by the raccoon.	The bull hits the dog.	Active_Target	English_Target	NA	The panda is hugged by the raccoon. The bull hits the dog.
+Set2	Passive_Prime	English_Prime	The panda is hugged by the raccoon.	The dog is hit by the bull.	Passive_Target	English_Target	NA	The panda is hugged by the raccoon. The dog is hit by the bull.
+Set3	Active_Prime	English_Prime	The horse kicks the lion.	The dolphin kisses the shark.	Active_Target	English_Target	NA	The horse kicks the lion. The dolphin kisses the shark.
+Set3	Active_Prime	English_Prime	The horse kicks the lion.	The shark is kissed by the dolphin.	Passive_Target	English_Target	NA	The horse kicks the lion. The shark is kissed by the dolphin.
+Set3	Passive_Prime	English_Prime	The lion is kicked by the horse.	The dolphin kisses the shark.	Active_Target	English_Target	NA	The lion is kicked by the horse. The dolphin kisses the shark.
+Set3	Passive_Prime	English_Prime	The lion is kicked by the horse.	The shark is kissed by the dolphin.	Passive_Target	English_Target	NA	The lion is kicked by the horse. The shark is kissed by the dolphin.
+Set4	Active_Prime	English_Prime	The boss kicks the employee.	The grandmother feeds the grandfather.	Active_Target	English_Target	NA	The boss kicks the employee. The grandmother feeds the grandfather.
+Set4	Active_Prime	English_Prime	The boss kicks the employee.	The grandfather is fed by the grandmother.	Passive_Target	English_Target	NA	The boss kicks the employee. The grandfather is fed by the grandmother.
+Set4	Passive_Prime	English_Prime	The employee is kicked by the boss.	The grandmother feeds the grandfather.	Active_Target	English_Target	NA	The employee is kicked by the boss. The grandmother feeds the grandfather.
+Set4	Passive_Prime	English_Prime	The employee is kicked by the boss.	The grandfather is fed by the grandmother.	Passive_Target	English_Target	NA	The employee is kicked by the boss. The grandfather is fed by the grandmother.
+Set5	Active_Prime	English_Prime	The policeman chases the burglar.	The grandfather pushes the grandson.	Active_Target	English_Target	NA	The policeman chases the burglar. The grandfather pushes the grandson.
+Set5	Active_Prime	English_Prime	The policeman chases the burglar.	The grandson is pushed by the grandfather.	Passive_Target	English_Target	NA	The policeman chases the burglar. The grandson is pushed by the grandfather.
+Set5	Passive_Prime	English_Prime	The burglar is chased by the policeman.	The grandfather pushes the grandson.	Active_Target	English_Target	NA	The burglar is chased by the policeman. The grandfather pushes the grandson.
+Set5	Passive_Prime	English_Prime	The burglar is chased by the policeman.	The grandson is pushed by the grandfather.	Passive_Target	English_Target	NA	The burglar is chased by the policeman. The grandson is pushed by the grandfather.
+Set6	Active_Prime	English_Prime	The elephant chases the tiger.	The dinosaur feeds the deer.	Active_Target	English_Target	NA	The elephant chases the tiger. The dinosaur feeds the deer.
+Set6	Active_Prime	English_Prime	The elephant chases the tiger.	The deer is fed by the dinosaur.	Passive_Target	English_Target	NA	The elephant chases the tiger. The deer is fed by the dinosaur.
+Set6	Passive_Prime	English_Prime	The tiger is chased by the elephant.	The dinosaur feeds the deer.	Active_Target	English_Target	NA	The tiger is chased by the elephant. The dinosaur feeds the deer.
+Set6	Passive_Prime	English_Prime	The tiger is chased by the elephant.	The deer is fed by the dinosaur.	Passive_Target	English_Target	NA	The tiger is chased by the elephant. The deer is fed by the dinosaur.
+Set7	Active_Prime	English_Prime	The soldier hugs the woman.	The girl pinches the boy.	Active_Target	English_Target	NA	The soldier hugs the woman. The girl pinches the boy.
+Set7	Active_Prime	English_Prime	The soldier hugs the woman.	The boy is pinched by the girl.	Passive_Target	English_Target	NA	The soldier hugs the woman. The boy is pinched by the girl.
+Set7	Passive_Prime	English_Prime	The woman is hugged by the soldier.	The girl pinches the boy.	Active_Target	English_Target	NA	The woman is hugged by the soldier. The girl pinches the boy.
+Set7	Passive_Prime	English_Prime	The woman is hugged by the soldier.	The boy is pinched by the girl.	Passive_Target	English_Target	NA	The woman is hugged by the soldier. The boy is pinched by the girl.
+Set8	Active_Prime	English_Prime	The cat chases the mouse.	The hippopotamus kicks the horse.	Active_Target	English_Target	NA	The cat chases the mouse. The hippopotamus kicks the horse.
+Set8	Active_Prime	English_Prime	The cat chases the mouse.	The horse is kicked by the hippopotamus.	Passive_Target	English_Target	NA	The cat chases the mouse. The horse is kicked by the hippopotamus.
+Set8	Passive_Prime	English_Prime	The mouse is chased by the cat.	The hippopotamus kicks the horse.	Active_Target	English_Target	NA	The mouse is chased by the cat. The hippopotamus kicks the horse.
+Set8	Passive_Prime	English_Prime	The mouse is chased by the cat.	The horse is kicked by the hippopotamus.	Passive_Target	English_Target	NA	The mouse is chased by the cat. The horse is kicked by the hippopotamus.
+Set9	Active_Prime	English_Prime	The mother pushes the daughter.	The knight chases the princess.	Active_Target	English_Target	NA	The mother pushes the daughter. The knight chases the princess.
+Set9	Active_Prime	English_Prime	The mother pushes the daughter.	The princess is chased by the knight.	Passive_Target	English_Target	NA	The mother pushes the daughter. The princess is chased by the knight.
+Set9	Passive_Prime	English_Prime	The daughter is pushed by the mother.	The knight chases the princess.	Active_Target	English_Target	NA	The daughter is pushed by the mother. The knight chases the princess.
+Set9	Passive_Prime	English_Prime	The daughter is pushed by the mother.	The princess is chased by the knight.	Passive_Target	English_Target	NA	The daughter is pushed by the mother. The princess is chased by the knight.
+Set10	Active_Prime	English_Prime	The dinosaur feeds the lion.	The goat pushes the bear.	Active_Target	English_Target	NA	The dinosaur feeds the lion. The goat pushes the bear.
+Set10	Active_Prime	English_Prime	The dinosaur feeds the lion.	The bear is pushed by the goat.	Passive_Target	English_Target	NA	The dinosaur feeds the lion. The bear is pushed by the goat.
+Set10	Passive_Prime	English_Prime	The lion is fed by the dinosaur.	The goat pushes the bear.	Active_Target	English_Target	NA	The lion is fed by the dinosaur. The goat pushes the bear.
+Set10	Passive_Prime	English_Prime	The lion is fed by the dinosaur.	The bear is pushed by the goat.	Passive_Target	English_Target	NA	The lion is fed by the dinosaur. The bear is pushed by the goat.
+Set11	Active_Prime	English_Prime	The knight hits the farmer.	The boy chases the girl.	Active_Target	English_Target	NA	The knight hits the farmer. The boy chases the girl.
+Set11	Active_Prime	English_Prime	The knight hits the farmer.	The girl is chased by the boy.	Passive_Target	English_Target	NA	The knight hits the farmer. The girl is chased by the boy.
+Set11	Passive_Prime	English_Prime	The farmer is hit by the knight.	The boy chases the girl.	Active_Target	English_Target	NA	The farmer is hit by the knight. The boy chases the girl.
+Set11	Passive_Prime	English_Prime	The farmer is hit by the knight.	The girl is chased by the boy.	Passive_Target	English_Target	NA	The farmer is hit by the knight. The girl is chased by the boy.
+Set12	Active_Prime	English_Prime	The mother feeds the baby.	The bride pinches the groom.	Active_Target	English_Target	NA	The mother feeds the baby. The bride pinches the groom.
+Set12	Active_Prime	English_Prime	The mother feeds the baby.	The groom is pinched by the bride.	Passive_Target	English_Target	NA	The mother feeds the baby. The groom is pinched by the bride.
+Set12	Passive_Prime	English_Prime	The baby is fed by the mother.	The bride pinches the groom.	Active_Target	English_Target	NA	The baby is fed by the mother. The bride pinches the groom.
+Set12	Passive_Prime	English_Prime	The baby is fed by the mother.	The groom is pinched by the bride.	Passive_Target	English_Target	NA	The baby is fed by the mother. The groom is pinched by the bride.
+Set13	Active_Prime	English_Prime	The baby pinches the grandfather.	Santa Claus hugs the girl.	Active_Target	English_Target	NA	The baby pinches the grandfather. Santa Claus hugs the girl.
+Set13	Active_Prime	English_Prime	The baby pinches the grandfather.	The girl is hugged by Santa Claus.	Passive_Target	English_Target	NA	The baby pinches the grandfather. The girl is hugged by Santa Claus.
+Set13	Passive_Prime	English_Prime	The grandfather is pinched by the baby.	Santa Claus hugs the girl.	Active_Target	English_Target	NA	The grandfather is pinched by the baby. Santa Claus hugs the girl.
+Set13	Passive_Prime	English_Prime	The grandfather is pinched by the baby.	The girl is hugged by Santa Claus.	Passive_Target	English_Target	NA	The grandfather is pinched by the baby. The girl is hugged by Santa Claus.
+Set14	Active_Prime	English_Prime	The dragon pushes the bull.	The penguin pinches the bear.	Active_Target	English_Target	NA	The dragon pushes the bull. The penguin pinches the bear.
+Set14	Active_Prime	English_Prime	The dragon pushes the bull.	The bear is pinched by the penguin.	Passive_Target	English_Target	NA	The dragon pushes the bull. The bear is pinched by the penguin.
+Set14	Passive_Prime	English_Prime	The bull is pushed by the dragon.	The penguin pinches the bear.	Active_Target	English_Target	NA	The bull is pushed by the dragon. The penguin pinches the bear.
+Set14	Passive_Prime	English_Prime	The bull is pushed by the dragon.	The bear is pinched by the penguin.	Passive_Target	English_Target	NA	The bull is pushed by the dragon. The bear is pinched by the penguin.
+Set15	Active_Prime	English_Prime	The deer feeds the lion.	The parrot hits the cat.	Active_Target	English_Target	NA	The deer feeds the lion. The parrot hits the cat.
+Set15	Active_Prime	English_Prime	The deer feeds the lion.	The cat is hit by the parrot.	Passive_Target	English_Target	NA	The deer feeds the lion. The cat is hit by the parrot.
+Set15	Passive_Prime	English_Prime	The lion is fed by the deer.	The parrot hits the cat.	Active_Target	English_Target	NA	The lion is fed by the deer. The parrot hits the cat.
+Set15	Passive_Prime	English_Prime	The lion is fed by the deer.	The cat is hit by the parrot.	Passive_Target	English_Target	NA	The lion is fed by the deer. The cat is hit by the parrot.
+Set16	Active_Prime	English_Prime	The monkey pinches the squirrel.	The parrot kisses the chicken.	Active_Target	English_Target	NA	The monkey pinches the squirrel. The parrot kisses the chicken.
+Set16	Active_Prime	English_Prime	The monkey pinches the squirrel.	The chicken is kissed by the parrot.	Passive_Target	English_Target	NA	The monkey pinches the squirrel. The chicken is kissed by the parrot.
+Set16	Passive_Prime	English_Prime	The squirrel is pinched by the monkey.	The parrot kisses the chicken.	Active_Target	English_Target	NA	The squirrel is pinched by the monkey. The parrot kisses the chicken.
+Set16	Passive_Prime	English_Prime	The squirrel is pinched by the monkey.	The chicken is kissed by the parrot.	Passive_Target	English_Target	NA	The squirrel is pinched by the monkey. The chicken is kissed by the parrot.
+Set17	Active_Prime	English_Prime	The chicken kisses the dolphin.	The dinosaur kicks the lion.	Active_Target	English_Target	NA	The chicken kisses the dolphin. The dinosaur kicks the lion.
+Set17	Active_Prime	English_Prime	The chicken kisses the dolphin.	The lion is kicked by the dinosaur.	Passive_Target	English_Target	NA	The chicken kisses the dolphin. The lion is kicked by the dinosaur.
+Set17	Passive_Prime	English_Prime	The dolphin is kissed by the chicken.	The dinosaur kicks the lion.	Active_Target	English_Target	NA	The dolphin is kissed by the chicken. The dinosaur kicks the lion.
+Set17	Passive_Prime	English_Prime	The dolphin is kissed by the chicken.	The lion is kicked by the dinosaur.	Passive_Target	English_Target	NA	The dolphin is kissed by the chicken. The lion is kicked by the dinosaur.
+Set18	Active_Prime	English_Prime	The athlete kicks the burglar.	The princess feeds the knight.	Active_Target	English_Target	NA	The athlete kicks the burglar. The princess feeds the knight.
+Set18	Active_Prime	English_Prime	The athlete kicks the burglar.	The knight is fed by the princess.	Passive_Target	English_Target	NA	The athlete kicks the burglar. The knight is fed by the princess.
+Set18	Passive_Prime	English_Prime	The burglar is kicked by the athlete.	The princess feeds the knight.	Active_Target	English_Target	NA	The burglar is kicked by the athlete. The princess feeds the knight.
+Set18	Passive_Prime	English_Prime	The burglar is kicked by the athlete.	The knight is fed by the princess.	Passive_Target	English_Target	NA	The burglar is kicked by the athlete. The knight is fed by the princess.
+Set19	Active_Prime	English_Prime	The bull pushes the dragon.	The goat hugs the sheep.	Active_Target	English_Target	NA	The bull pushes the dragon. The goat hugs the sheep.
+Set19	Active_Prime	English_Prime	The bull pushes the dragon.	The sheep is hugged by the goat.	Passive_Target	English_Target	NA	The bull pushes the dragon. The sheep is hugged by the goat.
+Set19	Passive_Prime	English_Prime	The dragon is pushed by the bull.	The goat hugs the sheep.	Active_Target	English_Target	NA	The dragon is pushed by the bull. The goat hugs the sheep.
+Set19	Passive_Prime	English_Prime	The dragon is pushed by the bull.	The sheep is hugged by the goat.	Passive_Target	English_Target	NA	The dragon is pushed by the bull. The sheep is hugged by the goat.
+Set20	Active_Prime	English_Prime	The squirrel pinches the bear.	The dog chases the duck.	Active_Target	English_Target	NA	The squirrel pinches the bear. The dog chases the duck.
+Set20	Active_Prime	English_Prime	The squirrel pinches the bear.	The duck is chased by the dog.	Passive_Target	English_Target	NA	The squirrel pinches the bear. The duck is chased by the dog.
+Set20	Passive_Prime	English_Prime	The bear is pinched by the squirrel.	The dog chases the duck.	Active_Target	English_Target	NA	The bear is pinched by the squirrel. The dog chases the duck.
+Set20	Passive_Prime	English_Prime	The bear is pinched by the squirrel.	The duck is chased by the dog.	Passive_Target	English_Target	NA	The bear is pinched by the squirrel. The duck is chased by the dog.
+Set21	Active_Prime	English_Prime	The baby hits the policeman.	The girl kisses the boy.	Active_Target	English_Target	NA	The baby hits the policeman. The girl kisses the boy.
+Set21	Active_Prime	English_Prime	The baby hits the policeman.	The boy is kissed by the girl.	Passive_Target	English_Target	NA	The baby hits the policeman. The boy is kissed by the girl.
+Set21	Passive_Prime	English_Prime	The policeman is hit by the baby.	The girl kisses the boy.	Active_Target	English_Target	NA	The policeman is hit by the baby. The girl kisses the boy.
+Set21	Passive_Prime	English_Prime	The policeman is hit by the baby.	The boy is kissed by the girl.	Passive_Target	English_Target	NA	The policeman is hit by the baby. The boy is kissed by the girl.
+Set22	Active_Prime	English_Prime	The mother hugs the bride.	The girl kicks the clown.	Active_Target	English_Target	NA	The mother hugs the bride. The girl kicks the clown.
+Set22	Active_Prime	English_Prime	The mother hugs the bride.	The clown is kicked by the girl.	Passive_Target	English_Target	NA	The mother hugs the bride. The clown is kicked by the girl.
+Set22	Passive_Prime	English_Prime	The bride is hugged by the mother.	The girl kicks the clown.	Active_Target	English_Target	NA	The bride is hugged by the mother. The girl kicks the clown.
+Set22	Passive_Prime	English_Prime	The bride is hugged by the mother.	The clown is kicked by the girl.	Passive_Target	English_Target	NA	The bride is hugged by the mother. The clown is kicked by the girl.
+Set23	Active_Prime	English_Prime	The grandmother kisses the grandson.	The woman hits the man.	Active_Target	English_Target	NA	The grandmother kisses the grandson. The woman hits the man.
+Set23	Active_Prime	English_Prime	The grandmother kisses the grandson.	The man is hit by the woman.	Passive_Target	English_Target	NA	The grandmother kisses the grandson. The man is hit by the woman.
+Set23	Passive_Prime	English_Prime	The grandson is kissed by the grandmother.	The woman hits the man.	Active_Target	English_Target	NA	The grandson is kissed by the grandmother. The woman hits the man.
+Set23	Passive_Prime	English_Prime	The grandson is kissed by the grandmother.	The man is hit by the woman.	Passive_Target	English_Target	NA	The grandson is kissed by the grandmother. The man is hit by the woman.
+Set24	Active_Prime	English_Prime	The fish hits the duck.	The wolf hugs the cat.	Active_Target	English_Target	NA	The fish hits the duck. The wolf hugs the cat.
+Set24	Active_Prime	English_Prime	The fish hits the duck.	The cat is hugged by the wolf.	Passive_Target	English_Target	NA	The fish hits the duck. The cat is hugged by the wolf.
+Set24	Passive_Prime	English_Prime	The duck is hit by the fish.	The wolf hugs the cat.	Active_Target	English_Target	NA	The duck is hit by the fish. The wolf hugs the cat.
+Set24	Passive_Prime	English_Prime	The duck is hit by the fish.	The cat is hugged by the wolf.	Passive_Target	English_Target	NA	The duck is hit by the fish. The cat is hugged by the wolf.
