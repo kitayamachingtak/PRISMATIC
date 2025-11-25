@@ -1,0 +1,26 @@
+{
+  "sentence_types": {
+    "simple_active": 0,
+    "simple_passive": 1,
+    "po_active": 2,
+    "po_passive": 3,
+    "embedded_active": 4,
+    "embedded_passive": 5,
+    "mediopassive_like_active": 6,
+    "mediopassive": 7,
+    "simple_do": 8,
+    "simple_po": 9,
+    "complex_do": 10,
+    "complex_po": 11,
+    "do_clause": 12,
+    "po_clause": 13,
+    "s_genitive": 14,
+    "of_genitive": 15
+  },
+  "metadata": {
+    "total_types": 16,
+    "version": "1.0",
+    "description": "labels for different sentence types",
+    "last_updated": "2025-02-12"
+  }
+}
