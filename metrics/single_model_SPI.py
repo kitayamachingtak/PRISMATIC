@@ -139,45 +139,45 @@ def process_caption_file(caption_csv: str, output_csv: str, gamma: float = 3.0):
 def analyze_spi_scores(file_path):
     df = pd.read_csv(file_path)
     
-    groups = [
-        ('Simple Active', (2, 62)),
-        ('Simple Passive', (63, 123)),
-        ('Prepositional Active', (124, 184)),
-        ('Prepositional Passive', (185, 245)),
-        ('Embedded Active', (246, 307)),
-        ('Embedded Passive', (308, 369)),
-        ('Mediopassive Like Active', (370, 432)),
-        ('Mediopassive', (433, 495)),
-        ('Simple Double Object', (496, 561)),
-        ('Simple Prepositional Object', (562, 627)),
-        ('Complex Double Object', (628, 692)),
-        ('Complex Prepostional Object', (693, 757)),
-        ('Double Object with Clause', (758, 820)),
-        ('Prepositional Object with Clause', (821, 883)),
-        ('S-Genitive', (884, 945)),
-        ('Of-Genitive', (946, None))
+    group_names = [
+        'Simple Active',                      # label 0
+        'Simple Passive',                     # label 1
+        'Prepositional Active',               # label 2
+        'Prepositional Passive',              # label 3
+        'Embedded Active',                    # label 4
+        'Embedded Passive',                   # label 5
+        'Mediopassive Like Active',           # label 6
+        'Mediopassive',                       # label 7
+        'Simple Double Object',               # label 8
+        'Simple Prepositional Object',        # label 9
+        'Complex Double Object',              # label 10
+        'Complex Prepostional Object',        # label 11
+        'Double Object with Clause',          # label 12
+        'Prepositional Object with Clause',   # label 13
+        'S-Genitive',                         # label 14
+        'Of-Genitive'                         # label 15
     ]
     
     results = []
-    for group_name, (start, end) in groups:
-        if end is None:
-            group_data = df.iloc[start-1:]
-        else:
-            group_data = df.iloc[start-1:end]
+    for label in range(16):
+        group_data = df[df['label'] == label]
         
-        spi_scores = group_data['SPI_score']
+        spi_scores = group_data['SPI_score'].dropna()
+        
+        if len(spi_scores) == 0:
+            continue
+        
         mean_score = spi_scores.mean()
         positive_ratio = (spi_scores > 0).mean()
         
         results.append({
-            'Group': group_name,
+            'Group': group_names[label],
             'Mean_SPI': round(mean_score, 4),
             'Positive_Ratio': f"{round(positive_ratio * 100, 2)}%",
             'Sample_Size': len(spi_scores)
         })
     
     return pd.DataFrame(results)
-
 
 def plot_main_results(results_df, save_path=None):
     label_names = results_df['Group'].tolist()
@@ -205,7 +205,7 @@ def plot_main_results(results_df, save_path=None):
     plt.gca().spines['right'].set_visible(False)
     
     plt.yticks(y_pos, label_names)
-    plt.xlabel('Value')
+    plt.xlabel('Mean SPI Value')
     
     for i in range(1, len(label_names), 2):
         plt.axhline(y=y_pos[i] + 0.5, color='gray', linestyle='-', alpha=0.1)
@@ -218,7 +218,7 @@ def plot_main_results(results_df, save_path=None):
     
     plt.show()
 
-
+#plot
 def plot_comparison(with_prime_df, without_prime_df, save_path=None):
     plt.rcParams.update({'font.size': 12})
     
@@ -286,7 +286,7 @@ def plot_comparison(with_prime_df, without_prime_df, save_path=None):
             current_y_pos += 1
         group_boundaries.append(current_y_pos - 0.5)
     
-    plt.figure(figsize=(9, 5))
+    plt.figure(figsize=(12, 5))
     
     bar_height = 0.3
     y_with_prime = [y + bar_height/2 for y in y_positions]
@@ -322,12 +322,22 @@ def plot_comparison(with_prime_df, without_prime_df, save_path=None):
     plt.xticks(fontsize=14)
     plt.xlabel('Mean SPI Value', fontsize=18, labelpad=10)
     plt.title('Blip-2: With vs Without Prime Sentence', fontsize=20, pad=20)
-    plt.legend(bbox_to_anchor=(1.3, 0.1), loc='lower right', ncol=1, fontsize=12)
+    plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left', ncol=1, fontsize=11)
     
     for boundary in group_boundaries[:-1]:
         plt.axhline(y=boundary, color='gray', linestyle='-', alpha=0.2, linewidth=2)
     
-    plt.xlim(-0.2, 0.2)
+    plt.gca().invert_yaxis()
+    
+    # 自动计算合适的x轴范围
+    all_values = values_with_prime + values_without_prime
+    x_min = min(all_values)
+    x_max = max(all_values)
+    x_range = x_max - x_min
+    x_margin = x_range * 0.15  # 留出15%的边距
+    
+    plt.xlim(x_min - x_margin, x_max + x_margin)
+    
     plt.gca().xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: '{:.3f}'.format(x)))
     plt.tight_layout()
     
@@ -342,34 +352,19 @@ if __name__ == "__main__":
     caption_with_prime = 'caption_generation_results_blip.csv'
     caption_without_prime = 'caption_blip_noprime.csv'
     
-    print("="*60)
-    print("Step 1: Processing WITH PRIME captions")
-    print("="*60)
+
     process_caption_file(caption_with_prime, 'SPI_with_prime.csv')
     analysis_with = analyze_spi_scores('SPI_with_prime.csv')
-    print("\nWith Prime: SPI Score Analysis Results:")
-    print("="*80)
+    print("\nWith Prime Results:")
     print(analysis_with.to_string(index=False))
-    analysis_with.to_csv('analysis_with_prime.csv', index=False)
     
-    print("\n" + "="*60)
-    print("Step 2: Plotting main results (with prime)")
-    print("="*60)
     plot_main_results(analysis_with, 'blip_main_plot.png')
-    
-    print("\n" + "="*60)
-    print("Step 3: Processing WITHOUT PRIME captions")
-    print("="*60)
+
     process_caption_file(caption_without_prime, 'SPI_without_prime.csv')
     analysis_without = analyze_spi_scores('SPI_without_prime.csv')
-    print("\nWithout Prime: SPI Score Analysis Results:")
-    print("="*80)
+    print("\nWithout Prime Results:")
     print(analysis_without.to_string(index=False))
-    analysis_without.to_csv('analysis_without_prime.csv', index=False)
     
-    print("\n" + "="*60)
-    print("Step 4: Plotting comparison (with vs without prime)")
-    print("="*60)
     plot_comparison(analysis_with, analysis_without, 'blip_comparison.png')
     
     print("\n" + "="*60)
