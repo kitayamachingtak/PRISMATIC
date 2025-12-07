@@ -71,6 +71,18 @@ This dataset is built upon the Flickr30k dataset:
   publisher={MIT Press}
 }
 ```
+**Citation for PRISMATIC**:
+```bibtex
+@misc{xiao2025humancognitionvisualcontext,
+      title={Towards Human Cognition: Visual Context Guides Syntactic Priming in Fusion-Encoded Models}, 
+      author={Bushi Xiao and Michael Bennie and Jayetri Bardhan and Daisy Zhe Wang},
+      year={2025},
+      eprint={2502.17669},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.17669}, 
+}
+```
 
 ## Setup Instructions
 
@@ -120,22 +132,6 @@ This dataset is designed for:
 ## License
 
 Please refer to the original Flickr30k license for image usage rights.
-
-## Citation
-
-If you use this dataset, please cite:
-
-@misc{xiao2025humancognitionvisualcontext,
-      title={Towards Human Cognition: Visual Context Guides Syntactic Priming in Fusion-Encoded Models}, 
-      author={Bushi Xiao and Michael Bennie and Jayetri Bardhan and Daisy Zhe Wang},
-      year={2025},
-      eprint={2502.17669},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2502.17669}, 
-}
-
-And the original Flickr30k dataset (citation provided above).
 
 ## Project Structure
 
