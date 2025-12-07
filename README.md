@@ -84,7 +84,7 @@ This dataset is built upon the Flickr30k dataset:
 }
 ```
 
-## Setup Instructions
+## Get Dataset
 
 ### Step 1: Download Images
 
@@ -95,23 +95,20 @@ Since the original Flickr30k images are distributed as a zip file on Hugging Fac
 
 ### Step 2: Filter Images for PRISMATIC
 
-Run the provided script to extract only the images used in this dataset:
+Run the provided script to extract only the images used in this dataset(need to change the path):
 
 ```bash
 python get_image.py
 ```
 
-This script will filter and copy only the images referenced in the PRISMATIC dataset, saving storage space and setup time.
+This script will filter and copy only the images referenced in the PRISMATIC dataset.
 
-## Dataset Structure
-
-### Files
+## Files
 
 - **`PRISMATIC_full.csv`**: Main dataset file containing sentences with train/test split annotations
 - **`data(old).csv`**: Old test data no longer in use
 - **`sentence_labels.json`**: The dataset contains 16 distinct labels (0-15) representing different syntactic structures. For detailed information about each label's syntactic pattern, please refer to `sentence_labels.json`.
 - **`get_images.py`**: Utility script to extract relevant images from Flickr30k
-
 
 ## Example Sentences
 
