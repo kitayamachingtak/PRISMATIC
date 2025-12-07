@@ -106,7 +106,7 @@ This script will filter and copy only the images referenced in the PRISMATIC dat
 ## Files
 
 - **`PRISMATIC_full.csv`**: Main dataset file containing sentences with train/test split annotations
-- **`data(old).csv`**: Old test data no longer in use
+- **`data(old).csv`**: Old test data no longer in use (but for initial test)
 - **`sentence_labels.json`**: The dataset contains 16 distinct labels (0-15) representing different syntactic structures. For detailed information about each label's syntactic pattern, please refer to `sentence_labels.json`.
 - **`get_images.py`**: Utility script to extract relevant images from Flickr30k
 
