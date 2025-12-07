@@ -212,6 +212,8 @@ The `metrics/` directory contains core scripts for calculating and analyzing Syn
   year={2023},
   month={December}
 
+```
+```bibtex
 @article{sinclair2022structural,
   title={Structural persistence in language models: Priming as a window into abstract language representations},
   author={Sinclair, Arabella and Jumelet, Jaap and Zuidema, Willem and Fern{\'a}ndez, Raquel},
