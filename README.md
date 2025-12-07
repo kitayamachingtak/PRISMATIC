@@ -112,7 +112,6 @@ This script will filter and copy only the images referenced in the PRISMATIC dat
 
 ## Example Sentences
 
-<!-- Insert your example image here showing sentences in different syntactic structures -->
 ![Syntactic Structure Examples](dataset/sentence_examples.png)
 
 *Example sentences demonstrating 16 syntactic structures*
