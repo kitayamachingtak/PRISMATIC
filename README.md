@@ -163,10 +163,64 @@ The `metrics/` directory contains core scripts for calculating and analyzing Syn
 #### `metrics/differentMetrics/metrics_comparison.ipynb`
 - **Function**: Compare different syntactic priming metrics using GPT-2 as base model
 - **Input**: TSV files from previous research:
-Bernolet, S., Hartsuiker, R. J., & Pickering, M. J. (2013). From language-specific to shared syntactic representations: The influence of second language proficiency on syntactic sharing in bilinguals. Cognition, 127(3), 287-306.
-Schoonbaert, S., Hartsuiker, R. J., & Pickering, M. J. (2007). The representation of lexical and syntactic information in bilinguals: Evidence from syntactic priming. Journal of Memory and Language, 56(2), 153-171.
-Kotzochampou, S., & Chondrogianni, V. (2022). How similar are shared syntactic representations? Evidence from priming of passives in Greek–English bilinguals. Bilingualism: Language and cognition, 25(5), 726-738.
-- **Purpose**: Provide comparison on different mertics:
-Michaelov, J., Arnett, C., Chang, T., & Bergen, B. (2023, December). Structural priming demonstrates abstract grammatical representations in multilingual language models. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (pp. 3703-3720).
-Sinclair, A., Jumelet, J., Zuidema, W., & Fernández, R. (2022). Structural persistence in language models: Priming as a window into abstract language representations. Transactions of the Association for Computational Linguistics, 10, 1031-1050.
+- **OF-S Genitive**
+```bibtex
+@article{bernolet2013language,
+  title={From language-specific to shared syntactic representations: The influence of second language proficiency on syntactic sharing in bilinguals},
+  author={Bernolet, Sarah and Hartsuiker, Robert J and Pickering, Martin J},
+  journal={Cognition},
+  volume={127},
+  number={3},
+  pages={287--306},
+  year={2013},
+  publisher={Elsevier}
+}
+```
+- **PO-DO**
+```bibtex
+@article{schoonbaert2007representation,
+  title={The representation of lexical and syntactic information in bilinguals: Evidence from syntactic priming},
+  author={Schoonbaert, Sofie and Hartsuiker, Robert J and Pickering, Martin J},
+  journal={Journal of Memory and Language},
+  volume={56},
+  number={2},
+  pages={153--171},
+  year={2007},
+  publisher={Elsevier}
+}
+```
+- **Active-Passive**
+```bibtex
+@article{kotzochampou2022similar,
+  title={How similar are shared syntactic representations? Evidence from priming of passives in Greek--English bilinguals},
+  author={Kotzochampou, Sofia and Chondrogianni, Vasiliki},
+  journal={Bilingualism: Language and Cognition},
+  volume={25},
+  number={5},
+  pages={726--738},
+  year={2022},
+  publisher={Cambridge University Press}
+}
+```
+- **Metrics**
+```bibtex
+@inproceedings{michaelov2023structural,
+  title={Structural priming demonstrates abstract grammatical representations in multilingual language models},
+  author={Michaelov, James and Arnett, Carrie and Chang, Tyler and Bergen, Benjamin},
+  booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  pages={3703--3720},
+  year={2023},
+  month={December}
+
+@article{sinclair2022structural,
+  title={Structural persistence in language models: Priming as a window into abstract language representations},
+  author={Sinclair, Arabella and Jumelet, Jaap and Zuidema, Willem and Fern{\'a}ndez, Raquel},
+  journal={Transactions of the Association for Computational Linguistics},
+  volume={10},
+  pages={1031--1050},
+  year={2022},
+  publisher={MIT Press}
+}
+```
 - ![Comparison across different models with Prime infol](./metrics/differentMetrics/metrics_compare.png)
+
