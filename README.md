@@ -2,7 +2,7 @@
 
 ## Dataset Overview
 
-**PRISMATIC** is the first multimodal structural priming dataset with aligned image-sentence pairs, establishing a standardized benchmark that advances computational linguistics research in vision-language syntactic interactions.
+**PRISMATIC** is the first multimodal structural priming dataset with 4k aligned image-sentence pairs, establishing a standardized benchmark that advances computational linguistics research in vision-language syntactic interactions.
 
 ## Key Contributions
 
